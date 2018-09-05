@@ -70,9 +70,9 @@ io.on('connection', function (socket) {
 
 });
 
-app.get('/', function (req, res) {
-  res.sendFile(__dirname + '/index.html');
-});
+// app.get('/', function (req, res) {
+//   res.sendFile(__dirname + '/index.html');
+// });
  
 server.listen(8081, function () {
   console.log(`Listening on ${server.address().port}`);
